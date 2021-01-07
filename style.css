@@ -67,8 +67,11 @@ body {
     color: hsl(0,0%,81%);
 }
 .card1 {
+    background-image: url(images/bg-pattern-quotation.svg);
     grid-column: 1/3;
     background-color: hsl(263 55% 52%);
+    background-repeat: no-repeat;
+    background-position: top right 80px;
 }
 .card2 {
     background-color: hsl(217 19% 35%);
@@ -77,7 +80,6 @@ body {
     grid-column: 4;
     grid-row: 1/3;
     background-color: white;
-
 }
 
 .white-topic {
@@ -94,12 +96,7 @@ body {
     background-color:hsl(219 29% 14%)
 
 }
-
 @media (max-width:1094px) {
-    /* .container {
-        grid-template-columns: ;
-        grid-template-rows: repeat(auto, auto);
-    } */
     .card1 {
         grid-column: 1/4;
     }
@@ -109,11 +106,8 @@ body {
     }
     .card5 {
         grid-column: 1/span 3;
-
     }
-
 }
-
 @media (max-width:934px) {
 
     .card2 {
@@ -122,18 +116,13 @@ body {
     }
     .card5 {
         grid-column: 1/span 3;
-
     }
-
 }
-
-
 @media (max-width:934px) {
     .card1 {
         grid-column: 1/ span 3;
         grid-row: 1;
     }
-
     .card2 {
         grid-column: 1/ span 3;
         grid-row: 2;
